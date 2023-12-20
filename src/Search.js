@@ -48,7 +48,7 @@ export default function Search() {
         
      }
     return (
-        <div className="Search">
+        <div className="Search mt-4 px-5">
             <form className="input-group" onSubmit={handleSubmit}>
                
                     <input type="text" placeholder="Enter the city" className="form-control" onChange={handleUpdate}></input>
