@@ -2,7 +2,23 @@
   text-align: center;
 }
 
+.container{
+  text-align: center;
+}
 
+.Search{
+  width: 100%;
+}
+
+
+.Search ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.Search h1{
+  text-align: left;
+}
 
 
 

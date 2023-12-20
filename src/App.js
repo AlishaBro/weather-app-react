@@ -1,19 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Weather from "./Weather"
+// import Weather from "./Weather"
 import Search from "./Search"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App container">
+     
         
         
-       <Search />
-         Hello World
-         <Weather />
+      <Search />
+     
+      {/* <Weather/> */}
+        
        
-      </header>
+      
+    
     </div>
   );
 }
