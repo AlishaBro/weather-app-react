@@ -18,4 +18,5 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-// addinf inital comment here for my project 
+// adding inital comment here for my project 
+// adding second comment to the index file 
