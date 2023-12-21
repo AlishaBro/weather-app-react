@@ -48,20 +48,27 @@ export default function Search() {
         
      }
     return (
-        <div className="Search mt-4 px-5">
-            <form className="input-group" onSubmit={handleSubmit}>
-               
-                    <input type="text" placeholder="Enter the city" className="form-control" onChange={handleUpdate}></input>
-               
+        <div className="Search">
+            
+            <form className="row" onSubmit={handleSubmit}>
+                    <div className="col-9"> 
+                    <input type="text" placeholder="Enter the city" autoFocus="on" required="on" className="form-control" onChange={handleUpdate}></input>
+                </div>
+                <div className="col-3">
                 
-                    <input type="submit" value="search" className="btn btn-primary search-btn"></input>
-                
+                    <input type="submit" value="search" className="btn btn-primary search-btn w-100"></input>
+                </div>
             </form>
+            
             <h1>{place}</h1>
             <div className="row "> 
-                <div className="col-4">
-                    <img src={icon} alt="cloudy" />
-                        <span>{temperature}{ ""} °C|F</span>
+                <div className="col-4 d-flex">
+                    <div>
+                        <img src={icon} alt="cloudy" />
+                    </div>
+                    <div>
+                        <span className="temperature">{temperature}{""} </span><span className="units">°C|F</span>
+                    </div>
                 </div>
                 <div className="col-4">
                     <ul>

@@ -6,15 +6,12 @@ import Search from "./Search"
 function App() {
   return (
     <div className="App ">
-      <div className="container border m-5">
+      <div className="container border rounded ">
 
- <Search />
+      <Search />
       </div>
 
-        
-     
-     
-      <p>This is an open source <a href="https://github.com/AlishaBro/weather-app-react">code</a></p>
+      <footer>This is an open source <a href="https://github.com/AlishaBro/weather-app-react">code</a></footer>
     </div>
   );
 }

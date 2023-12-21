@@ -1,24 +1,45 @@
 .App {
   text-align: center;
+  margin:30px auto;
+  max-width: 600px;
+  font-family:initial;
+
 }
 
-.container{
-  text-align: center;
-  
-}
 
 .Search{
-  width: 100%;
+  padding:15px;
+ 
 }
 
 
 .Search ul{
   padding: 0;
+  margin:0 ;
   list-style-type: none;
+  margin-top: 19px;
 }
 
 .Search h1{
   text-align: left;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.Search img{
+  line-height: 100px;
+}
+.Search .temperature{
+  font-size: 54px;
+  line-height: 100px;
+}
+
+.Search .units{
+  position: relative;
+  top:-24px;
+  margin-left:-6px;
+  
+  
 }
 
 
