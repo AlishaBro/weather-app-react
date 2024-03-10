@@ -26,18 +26,22 @@
   margin-left: 0;
   padding-left: 0;
 }
-.Search img{
-  line-height: 100px;
+.Search canvas{
+margin-top: 15px;
+  
+ 
 }
 .Search .temperature{
   font-size: 54px;
   line-height: 100px;
+  margin-left: 10px;
 }
 
 .Search .units{
   position: relative;
   top:-24px;
-  margin-left:-6px;
+  margin-left:-10px;
+  font-size: 15px;
   
   
 }
