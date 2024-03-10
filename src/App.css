@@ -22,12 +22,13 @@
 
 .Search h1{
   text-align: left;
-  margin-top: 10px;
+  margin-top: 18px;
   margin-left: 0;
   padding-left: 0;
 }
 .Search canvas{
-margin-top: 15px;
+margin-top: 24px;
+
   
  
 }
@@ -44,6 +45,10 @@ margin-top: 15px;
   font-size: 15px;
   
   
+}
+
+.a{
+  text-decoration: none;
 }
 
 

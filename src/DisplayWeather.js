@@ -1,6 +1,7 @@
 import React from "react";
 import FormatDate from "./FormatDate";
 import AnimatedWeatherIcon from "./AnimatedWeatherIcon"
+import UnitConversion from "./UnitConversion";
 
 export default function DisplayWeather(props) { 
     return (
@@ -13,7 +14,7 @@ export default function DisplayWeather(props) {
                         <AnimatedWeatherIcon icon={props.data.icon }/>
                       </div>
                       <div>
-                          <span className="temperature">{Math.round(props.data.temperature)}{""} </span><span className="units">°C|°F</span>
+                        <UnitConversion temperature={props.data.temperature} />
                       </div>
                   </div>
                   <div className="col-4">
