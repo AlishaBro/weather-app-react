@@ -11,7 +11,7 @@ export default function DisplayWeather(props) {
                      <div className="col-4 d-flex float-left">
                         <div className="canvas">
                         {/* <img src={props.data.icon} alt="cloudy" /> */}
-                        <AnimatedWeatherIcon icon={props.data.icon }/>
+                        <AnimatedWeatherIcon icon={props.data.icon} size={45} />
                       </div>
                       <div>
                         <UnitConversion temperature={props.data.temperature} />

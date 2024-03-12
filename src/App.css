@@ -6,6 +6,10 @@
 
 }
 
+.App a{
+  text-decoration: none;
+}
+
 
 .Search{
   padding:15px;
@@ -25,29 +29,26 @@
   margin-top: 18px;
   margin-left: 0;
   padding-left: 0;
+  color: #787D81
 }
 .Search canvas{
 margin-top: 24px;
-
-  
- 
 }
+
 .Search .temperature{
   font-size: 54px;
   line-height: 100px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .Search .units{
   position: relative;
-  top:-24px;
-  margin-left:-10px;
-  font-size: 15px;
-  
-  
+  top:-30px;
+  margin-left:-11px;
+  font-size: 12px;  
 }
 
-.a{
+a{
   text-decoration: none;
 }
 
