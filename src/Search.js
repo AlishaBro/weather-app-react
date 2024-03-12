@@ -63,7 +63,7 @@ export default function Search() {
                     </div>
                     <div className="col-3">
                 
-                        <input type="submit" value="search" className="btn btn-primary search-btn w-100"></input>
+                        <input type="submit" value="search" className="btn search-btn w-100"></input>
                     </div>
                 </form>
 

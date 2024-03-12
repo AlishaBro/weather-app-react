@@ -6,12 +6,12 @@ import Search from "./Search"
 function App() {
   return (
     <div className="App ">
-      <div className="container border rounded ">
+      <div className="container shadow p-3 mb-4 bg-body rounded weather-app ">
 
       <Search />
       </div>
 
-      <footer>This is an open source <a href="https://github.com/AlishaBro/weather-app-react">code</a></footer>
+      <footer className='p-0'>This is an <a href="https://github.com/AlishaBro/weather-app-react"> open source code on Git-hub</a> by <a href="https://zippy-queijadas-fe104b.netlify.app/">Alisha Brodin</a></footer>
     </div>
   );
 }

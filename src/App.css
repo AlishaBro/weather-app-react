@@ -1,10 +1,19 @@
+
+
+
 .App {
   text-align: center;
   margin:30px auto;
   max-width: 600px;
   font-family:initial;
+  color: #6D6162;
+ 
+ 
+
+  
 
 }
+
 
 .App a{
   text-decoration: none;
@@ -14,7 +23,19 @@
 .Search{
   padding:15px;
  
+ 
 }
+
+.Search .search-btn{
+  background-color: #6464ac;
+    color: #fff;
+}
+
+.Search .search-btn:hover{
+  background-color:#fff;
+    color:#6464ac; 
+}
+
 
 
 .Search ul{
@@ -29,7 +50,7 @@
   margin-top: 18px;
   margin-left: 0;
   padding-left: 0;
-  color: #787D81
+  color: #6D6162
 }
 .Search canvas{
 margin-top: 24px;
