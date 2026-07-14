@@ -1,0 +1,11 @@
+.DisplayWeather .row {
+  align-items: center;
+}
+
+.DisplayWeather ul {
+  list-style-type: none;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin: 0;
+  text-align: left;
+}
